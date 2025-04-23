@@ -37,5 +37,5 @@ And put your Mistral API key into `.env` file as in `.env.example`
 
 ## thoughts
 
-The dataset is imbalanced and has only 4 positive examples, compared to 140+ negative ones.
+The dataset is imbalanced and has only 4 positive examples, compared to 140+ negative ones. This makes model to be biased towards negative reviews.
 It would be much reasonable to use LLMs with JSON mode for the classification(as I did when labeling data)
